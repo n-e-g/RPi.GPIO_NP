@@ -26,6 +26,8 @@ SOFTWARE.
 #include "common.h"
 #include "c_gpio.h"
 
+PyTypeObject PWMType;
+
 typedef struct
 {
     PyObject_HEAD
